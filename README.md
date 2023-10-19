@@ -22,16 +22,18 @@ If you have questions, suggestions, or require assistance with OpenXNAV, please 
 
 
 ## Authors
-Sarah Hasnain <br />
-Michael Berkson <br />
-Sharon Maguire <br />
-Evan Sun <br />
-Katie Zaback <br />
+
+This work was created by the following contributors, with funding from Johns Hopkins Applied Physics Lab: <br />
+_Sarah Hasnain_ <br />
+_Michael Berkson_ <br />
+_Sharon Maguire_ <br />
+_Evan Sun_ <br />
+_Katie Zaback_ <br />
 
 ## Cite This Work
 
 If you use any component of the OpenXNAV library, please include the following attribution statement: <br /> 
-> This software derives from OpenXNAV (https://github.com/JHUAPL/OpenXNAV) software developed by The Johns 	Hopkins University Applied Physics Laboratory.
+> _This software derives from OpenXNAV (https://github.com/JHUAPL/OpenXNAV) software developed by The Johns 	Hopkins University Applied Physics Laboratory._
 	
 You can also cite our IEEE paper (BibTeX citation included below): <br /> 
 `
