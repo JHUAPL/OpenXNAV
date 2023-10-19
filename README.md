@@ -8,7 +8,9 @@
 OpenXNAV is designed to aid development and testing of Pulsar-based Autonomous Navigation (XNAV) Positioning, Navigation, and Timing (PNT) solutions.
 
 You can read our paper, published via IEEE, to learn more:
+
 [https://ieeexplore.ieee.org/document/10139942](https://ieeexplore.ieee.org/document/10139942)
+
 _Note: OpenXNAV was formerly named Pulsar-Leveraged Autonomous Navigation Testbed System (PLANTS)_
 
 ## Installation & Documentation
