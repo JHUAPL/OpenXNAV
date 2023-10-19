@@ -15,7 +15,9 @@ hide:
 
 OpenXNAV is designed to aid development and testing of Pulsar-based Autonomous Navigation (XNAV) Positioning, Navigation, and Timing (PNT) solutions.
 
-You can read our IEEE paper to learn more: [IEEE.org](https://ieeexplore.ieee.org/document/10139942).
+This tool is a flexible, cost-effective testbed to enable the next generation of XNAV solutions. OpenXNAV includes three modular components that allow engineers simulate high-fidelity pulsar X-ray events along a flight trajectory over a user-defined mission timeline. Hardware-in-the-loop functionality can be configured using software-defined radios (SDRs), and users can query for pulsar candidates using the query tool (powered by the [https://atnf.csiro.au/research/pulsar/psrcat/](ATNF Pulsar Catalogue)). 
+
+For more information, you can read our IEEE paper: [IEEE.org](https://ieeexplore.ieee.org/document/10139942).
 
 
 
@@ -24,3 +26,4 @@ You can read our IEEE paper to learn more: [IEEE.org](https://ieeexplore.ieee.or
 * [Pulsar Querying](components/1__pulsar_querying/pq_overview.md)
 * [Mission Planning](components/2__mission_planning/mp_overview.md)
 * [Timing & Event Generation](components/3__custom_event_generation/ceg_overview.md)
+* [Hardware In The Loop](components/3__custom_event_generation/ceg_overview/#hardware-in-the-loop-sdrs)
