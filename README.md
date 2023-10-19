@@ -12,7 +12,7 @@ OpenXNAV is designed to aid development and testing of Pulsar-based Autonomous N
 
 **You can read our IEEE paper to learn more:** <br />
 **[https://ieeexplore.ieee.org/document/10139942](https://ieeexplore.ieee.org/document/10139942)** <br />
-_Note: OpenXNAV was formerly named Pulsar-Leveraged Autonomous Navigation Testbed System (PLANTS)_
+_Note: OpenXNAV was previously named Pulsar-Leveraged Autonomous Navigation Testbed System (PLANTS)_
 
 
 ## Support

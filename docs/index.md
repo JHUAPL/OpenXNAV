@@ -15,9 +15,10 @@ hide:
 
 OpenXNAV is designed to aid development and testing of Pulsar-based Autonomous Navigation (XNAV) Positioning, Navigation, and Timing (PNT) solutions.
 
-This tool is a flexible, cost-effective testbed to enable the next generation of XNAV solutions. OpenXNAV includes three modular components that allow engineers simulate high-fidelity pulsar X-ray events along a flight trajectory over a user-defined mission timeline. Hardware-in-the-loop functionality can be configured using software-defined radios (SDRs), and users can query for pulsar candidates using the query tool (powered by the [ATNF Pulsar Catalogue](https://atnf.csiro.au/research/pulsar/psrcat/)). 
+This tool is a flexible, cost-effective testbed to enable the next generation of XNAV solutions. OpenXNAV includes three modular components that allow engineers simulate high-fidelity pulsar X-ray events along a flight trajectory over a user-defined mission timeline. Hardware-in-the-loop functionality can be configured using software-defined radios (SDRs), and users can query for pulsar candidates using the query tool (powered by the [ATNF Pulsar Catalogue](https://www.atnf.csiro.au/research/pulsar/psrcat/)). 
 
-For more information, you can read our IEEE paper: [IEEE.org](https://ieeexplore.ieee.org/document/10139942).
+For more information, you can read our [IEEE paper](https://ieeexplore.ieee.org/document/10139942).<br />
+_Note: OpenXNAV was previously named Pulsar-Leveraged Autonomous Navigation Testbed System (PLANTS)_
 
 
 
