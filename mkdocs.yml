@@ -3,7 +3,7 @@ site_name: OpenXNAV
 # navigation
 nav:
   - Overview: 'index.md'
-  - Components: 'getting_started.md'
+  - Components: 'components.md'
   - Getting Started: 
     - Pulsar Querying: 'components/1__pulsar_querying/pq_overview.md'
     - Mission Planning: 'components/2__mission_planning/mp_overview.md'
@@ -18,8 +18,8 @@ markdown_extensions:
   # icons & emojis
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # additional formatting
   - pymdownx.critic
   - pymdownx.caret

@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# **Getting Started**
+# **Components**
 
 Each component of OpenXNAV can be used individually, or strung together as an end-to-end pipeline. To get started with OpenXNAV, select the module you are interested in leveraging and access the documentation. 
 
