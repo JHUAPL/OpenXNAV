@@ -34,7 +34,7 @@ If you use any component of the OpenXNAV library, please include the following a
 	This software derives from OpenXNAV (https://github.com/JHUAPL/OpenXNAV) software developed by The Johns Hopkins University Applied Physics Laboratory.
 	
 You can also cite our IEEE paper: 
-'
+`
 @INPROCEEDINGS{10139942, 
 author={Hasnain, Sarah and Berkson, Michael and Maguire, Sharon and Sun, Evan and Zaback, Katie},
 booktitle={2023 IEEE/ION Position, Location and Navigation Symposium (PLANS)},
@@ -44,7 +44,7 @@ volume={},
 number={}, 
 pages={1286-1292}, 
 doi={10.1109/PLANS53410.2023.10139942}}
-'
+`
 
 
 ## License
