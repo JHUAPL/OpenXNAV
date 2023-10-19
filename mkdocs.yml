@@ -1,0 +1,117 @@
+site_name: OpenXNAV
+
+# navigation
+nav:
+  - Overview: 'index.md'
+  - Getting Started: 'getting_started.md'
+  - Components: 
+    - Pulsar Querying: 'components/1__pulsar_querying/pq_overview.md'
+    - Mission Planning: 'components/2__mission_planning/mp_overview.md'
+    - Timing & Event Generation: 'components/3__custom_event_generation/ceg_overview.md'
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  # footnotes
+  - footnotes
+  # icons & emojis
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # additional formatting
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  # admonitions 
+  - admonition
+  - pymdownx.details
+  # annotations, grids, images
+  - md_in_html
+  # tables
+  - tables
+  # lists
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  # diagrams
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  # math & formulas
+  - pymdownx.arithmatex:
+      generic: true
+  # code blocks
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+
+
+
+
+# theme
+theme: 
+  name: material
+
+  logo: assets/images/logo/svg/23-03611_OpenXNav_White-icon.svg
+
+  features: 
+  # to see what these different features do, go here: 
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+  - navigation.instant
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.tracking
+  - navigation.expand
+  - navigation.path
+  - navigation.top
+  - toc.integrate
+  - content.code.copy
+
+  # color palette
+  palette: 
+
+  # Palette toggle for light mode
+  - scheme: default
+    primary: custom
+    accent: custom
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
+
+  # Palette toggle for dark mode
+  - scheme: slate
+    primary: custom
+    accent: custom
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
+
+
+# setting icon defaults
+  icon:
+    # admonitions
+    admonition:
+      note: octicons/tag-16
+      info: octicons/info-16
+      tip: octicons/thumbsup-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/pencil-16
+      quote: octicons/quote-16
+
+
