@@ -5,8 +5,8 @@ hide:
 
 # 
 
-![OpenXNAV Logo](/assets/images/logo/png/23-03611_OpenXNav_Color-full.png#only-light){ width=50% }
-![OpenXNAV Logo](/assets/images/logo/png/23-03611_OpenXNav_White-lightblue-full.png#only-dark){ width=50% }
+![OpenXNAV Logo](assets/images/logo/png/23-03611_OpenXNav_Color-full.png#only-light){ width=50% }
+![OpenXNAV Logo](assets/images/logo/png/23-03611_OpenXNav_White-lightblue-full.png#only-dark){ width=50% }
 
 *Open-source modular toolkit for simulating high-fidelity pulsar X-ray events.* 
 
