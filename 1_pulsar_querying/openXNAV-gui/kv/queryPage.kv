@@ -1,0 +1,106 @@
+<QueryPage>:
+
+    # box container
+    MDBoxLayout:
+        id: sp_boxLayout
+        size: self.parent.size
+        pos: self.parent.pos
+        orientation: 'vertical'
+        md_bg_color: app.theme_cls.bg_normal
+        padding: 30
+        spacing: 0
+
+        # grid layout
+        # 2 cols x 3 rows
+        MDGridLayout:
+            id: query_input
+            md_bg_color: app.theme_cls.bg_normal
+            cols: 2
+            rows: 3
+            padding: 30
+            spacing: [30, 15]
+            size_hint: [1, 0.8]
+            
+            # User Input - Right Ascension
+            MDTextField:
+                id: raj1
+                hint_text: "Right Ascension (HH:MM:SS)"
+                mode: "rectangle"
+                text: ""
+                mulitline: False
+                # required: True
+                # error_color: [1,.20,.20,1]
+                line_color_normal: app.theme_cls.opposite_bg_normal
+                on_text: app.sm.current_screen.setRAJ1(self.text)
+
+            # User Input - Declination
+            MDTextField:
+                id: dec1
+                hint_text: "Declination (Degrees)"
+                mode: "rectangle"
+                text: ""
+                mulitline: False
+                # required: True
+                # error_color: [1,.20,.20,1]
+                line_color_normal: app.theme_cls.opposite_bg_normal
+                on_text: app.sm.current_screen.setDEC1(self.text)
+
+            # User Input - Radius
+            MDTextField:
+                id: rad1
+                hint_text: "Radius"
+                text: ""
+                mode: "rectangle"
+                # required: True
+                # error_color: [1,.20,.20,1]
+                line_color_normal: app.theme_cls.opposite_bg_normal
+                on_text: app.sm.current_screen.setRAD1(self.text)
+
+            # Button - Submit/Query
+            MDFlatButton:
+                id: find_pulsars_button
+                text: "[font=Gentona-Bold]FIND PULSARS[/font]"
+                md_bg_color: app.theme_cls.accent_dark
+                padding: [30,15,30,15]
+                on_press: app.sm.current_screen.findPulsars()
+                disabled: True
+
+            # User Input - (Optional) Data Storage Tag
+            MDTextField:
+                id: tag1
+                hint_text: "Tag (Optional)"
+                mode: "rectangle"
+                multiline: False
+                required: False
+                on_text: app.sm.current_screen.setTag(self.text)
+
+            # Display - Query Results
+            MDGridLayout:
+                id: output_display
+                height: self.minimum_height
+                cols: 4
+                padding: 30
+                spacing: 0
+
+        # Banner - Feedback To User
+        MDBoxLayout:
+            id: output_banner_container
+            height: self.minimum_height
+            padding: 30
+            spacing: 0
+            size_hint: [1, 0.2]
+
+            MDLabel:    
+                id: output_banner
+                markup: True
+                theme_text_color: 'Secondary'
+                halign: 'left'
+                valign: 'bottom'
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+name: openXNAV-gui
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - kivy
+  - psrqpy

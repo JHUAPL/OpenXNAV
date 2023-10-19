@@ -1,0 +1,19 @@
+#:include kv/startPage.kv
+#:include kv/queryPage.kv
+
+#:import FadeTransition kivy.uix.screenmanager.FadeTransition
+
+# App Manager - Will Toggle Between Views/Pages
+<ScreenManager>:
+    id: screen_manager
+    name: "screenManager"
+
+    # Default Page - Start Page
+    StartPage:
+        id: start_page
+        name: "startPage"
+
+    # Query Pulsars via User Provided Input
+    QueryPage:
+        id: query_page
+        name: "queryPage"

@@ -1,0 +1,53 @@
+<StartPage>:
+    # box container
+    MDBoxLayout:
+        id: sp_boxLayout
+        size: self.parent.size
+        pos: self.parent.pos
+        orientation: 'vertical'
+        md_bg_color: app.theme_cls.bg_normal
+        padding: 30
+        spacing: 0
+
+        # PLANTS Banner Display
+        MDLabel: 
+            id: nameLabel   
+            markup: True
+            text: "\n\n[font=Gentona-ExtraBold][size=72sp]OpenXNAV[b][font=Gentona-BookItalic][size=16sp]powered by Johns Hopkins APL[/b][/size][/font]"
+            theme_text_color: 'Primary'
+            size: self.texture_size
+            halign: 'left'
+            valign: 'bottom'
+
+        # Start Button (Nav: QueryPage)
+        MDGridLayout:
+            id: sp_gridLayout 
+            cols: 1
+            rows: 1
+
+            MDRaisedButton:
+                id: startButton
+                padding: [30,15,30,15]
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                line_color: 1, 1, 1, 1
+                md_bg_color: app.theme_cls.accent_dark
+                on_press: app.sm.changeScreen("queryPage")
+
+        # Progress Bar (Text Display)
+        MDLabel:    
+            id: loadingText
+            markup: True
+            theme_text_color: 'Secondary'
+            size: self.texture_size
+            halign: 'left'
+            valign: 'bottom'
+            size_hint: [1.0, 0.4]
+
+        # Progress Bar (to show loading progress)
+        MDProgressBar:
+            id: progress
+            type: "indeterminate"
+            color: app.theme_cls.accent_light
+            back_color: app.theme_cls.bg_normal
+            size_hint: [1.0, 0.1]
