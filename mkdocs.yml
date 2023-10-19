@@ -3,8 +3,8 @@ site_name: OpenXNAV
 # navigation
 nav:
   - Overview: 'index.md'
-  - Getting Started: 'getting_started.md'
-  - Components: 
+  - Components: 'getting_started.md'
+  - Getting Started: 
     - Pulsar Querying: 'components/1__pulsar_querying/pq_overview.md'
     - Mission Planning: 'components/2__mission_planning/mp_overview.md'
     - Timing & Event Generation: 'components/3__custom_event_generation/ceg_overview.md'
