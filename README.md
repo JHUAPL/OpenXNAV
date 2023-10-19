@@ -18,15 +18,15 @@ You can access our full documentation here: <br />
 
 
 ## Support
-If you have questions, suggestions, or require assistance with OpenXNAV, please email: OpenXNAV [at] jhuapl [dot] edu
+If you have questions, suggestions, or require assistance with OpenXNAV, please email: OpenXNAV[at]jhuapl[dot]edu
 
 
 ## Authors
-Sarah Hasnain
-Michael Berkson
-Sharon Maguire
-Evan Sun
-Katie Zaback
+Sarah Hasnain <br />
+Michael Berkson <br />
+Sharon Maguire <br />
+Evan Sun <br />
+Katie Zaback <br />
 
 ## Cite This Work
 
