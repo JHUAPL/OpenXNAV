@@ -7,23 +7,25 @@
 
 OpenXNAV is designed to aid development and testing of Pulsar-based Autonomous Navigation (XNAV) Positioning, Navigation, and Timing (PNT) solutions.
 
-You can read our paper, published via IEEE, to learn more: <br />
-[https://ieeexplore.ieee.org/document/10139942](https://ieeexplore.ieee.org/document/10139942) <br />
+**You can read our IEEE paper to learn more:** <br />
+**[https://ieeexplore.ieee.org/document/10139942](https://ieeexplore.ieee.org/document/10139942)** <br />
 _Note: OpenXNAV was formerly named Pulsar-Leveraged Autonomous Navigation Testbed System (PLANTS)_
 
 ## Installation & Documentation
 
-You can access our full documentation here: <br />
-[jhuapl.github.io/OpenXNAV/](jhuapl.github.io/OpenXNAV/)
+**You can access our full documentation here:** <br />
+**[jhuapl.github.io/OpenXNAV/](jhuapl.github.io/OpenXNAV/)**
 
 
 ## Support
-If you have questions, suggestions, or require assistance with OpenXNAV, please email: OpenXNAV[at]jhuapl[dot]edu
+If you have questions, suggestions, or require assistance with OpenXNAV, please email: **OpenXNAV@jhuapl.edu**
 
 
 ## Authors
 
-This work was created by the following contributors, with funding from Johns Hopkins Applied Physics Lab: <br />
+This work was created by the following contributors, with funding from Johns Hopkins Applied Physics Lab:
+
+
 _Sarah Hasnain_ <br />
 _Michael Berkson_ <br />
 _Sharon Maguire_ <br />
