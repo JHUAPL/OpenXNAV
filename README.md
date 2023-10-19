@@ -30,10 +30,10 @@ Katie Zaback
 
 ## Cite This Work
 
-If you use any component of the OpenXNAV library, please include the following attribution statement: 
-	This software derives from OpenXNAV (https://github.com/JHUAPL/OpenXNAV) software developed by The Johns Hopkins University Applied Physics Laboratory.
+If you use any component of the OpenXNAV library, please include the following attribution statement: <br /> 
+> This software derives from OpenXNAV (https://github.com/JHUAPL/OpenXNAV) software developed by The Johns 	Hopkins University Applied Physics Laboratory.
 	
-You can also cite our IEEE paper: 
+You can also cite our IEEE paper (BibTeX citation included below): <br /> 
 `
 @INPROCEEDINGS{10139942, 
 author={Hasnain, Sarah and Berkson, Michael and Maguire, Sharon and Sun, Evan and Zaback, Katie},
