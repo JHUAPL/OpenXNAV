@@ -21,7 +21,7 @@ If you have questions, suggestions, or require assistance with OpenXNAV, please 
 
 ## Authors
 
-This work was created by the following contributors, with funding from Johns Hopkins Applied Physics Lab:
+This work was created by the following contributors, with funding from The Johns Hopkins Applied Physics Lab via the Building Leaders, Accelerating Science & Technology (BLAST) Innovation Program:
 
 
 _Sarah Hasnain_ <br />
