@@ -34,8 +34,15 @@ _Katie Zaback_ <br />
 
 If you use any component of the OpenXNAV library, please include the following attribution statement: <br /> 
 > _This software derives from OpenXNAV (https://github.com/JHUAPL/OpenXNAV) software developed by The Johns 	Hopkins University Applied Physics Laboratory._
-	
-You can also cite our IEEE paper (BibTeX citation included below): <br /> 
+
+ 
+You can also cite our IEEE paper: <br /> 
+
+Plain text citation: <br /> 
+
+Sarah Hasnain, Michael Berkson, Sharon Maguire, Evan Sun and Katie Zaback, "Pulsar-Leveraged Autonomous Navigation Testbed System (PLANTS): A Low-Cost Software-Hardware Hybrid Testbed for Pulsar-based Autonomous Navigation (XNAV) Positioning, Navigation, and Timing (PNT) Solutions," 2023 IEEE/ION Position, Location and Navigation Symposium (PLANS), Monterey, CA, USA, 2023, pp. 1286-1292, doi: 10.1109/PLANS53410.2023.10139942.
+
+BibTeX citation: <br /> 
 `
 @INPROCEEDINGS{10139942, 
 author={Hasnain, Sarah and Berkson, Michael and Maguire, Sharon and Sun, Evan and Zaback, Katie},
